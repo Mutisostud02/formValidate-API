@@ -9,8 +9,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'dist/index.html',
-      file: './dist/index.html'
+      template: './src/index.html',
+      file: './src/index.html'
     })
   ],
   output: {
