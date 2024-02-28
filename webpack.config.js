@@ -5,10 +5,12 @@ module.exports = {
   mode: "development",
   entry: {
     index: "./src/index.js",
+    home: "./src/home.js",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html'
+      template: 'dist/index.html',
+      file: './dist/index.html'
     })
   ],
   output: {
